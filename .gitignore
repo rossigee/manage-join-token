@@ -1,0 +1,4 @@
+#debian/manage-join-token.substvars
+debian/files
+debian/manage-join-token
+debian/.debhelper

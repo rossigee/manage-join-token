@@ -1,0 +1,5 @@
+manage-join-token usr/bin/
+systemd/manage-join-token.service usr/lib/systemd/system/
+systemd/manage-join-token.timer usr/lib/systemd/system/
+README.md usr/share/doc/manage-join-token/
+LICENSE usr/share/doc/manage-join-token/

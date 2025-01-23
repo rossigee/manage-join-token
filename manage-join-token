@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+token=$(kubeadm token create --print-join-command | cut -f5 -d' ')
+
+vault kv put -non-interactive $VAULT_SECRET_PATH token=$token >/dev/null

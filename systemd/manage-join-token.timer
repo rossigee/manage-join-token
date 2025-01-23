@@ -1,0 +1,9 @@
+[Unit]
+Description=Maintain current cluster join token every 8 hours
+
+[Timer]
+OnCalendar=0:0/8
+AccuracySec=2m
+
+[Install]
+WantedBy=timers.target

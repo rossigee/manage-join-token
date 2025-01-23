@@ -1,0 +1,12 @@
+[Unit]
+Description=Maintain current cluster join token as Vault secret
+After=network.target
+
+[Service]
+Type=simple
+User=manage-join-token
+WorkingDirectory=/tmp
+ExecStart=/usr/bin/manage-join-token
+
+[Install]
+WantedBy=multi-user.target

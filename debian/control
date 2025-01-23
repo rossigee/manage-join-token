@@ -1,0 +1,13 @@
+Source: manage-join-token
+Section: misc
+Priority: optional
+Maintainer: Ross Golder <ross@golder.org>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.8
+Homepage: https://github.com/rossigee/manage-join-token
+
+Package: manage-join-token
+Architecture: all
+Depends: ${misc:Depends}
+Description: Small tool to maintain a current cluster join token in a Vault secret
+Pre-Depends: adduser
