@@ -25,11 +25,11 @@ jobs:
           [ -d dist ] || mkdir dist
           (
             tar czf dist/"${{ env.APP_NAME }}-${{ env.APP_VERSION }}.tar.gz" \
-              README.md
-              LICENSE
-              manage-join-token
-              debian
-              systemd
+              README.md \
+              LICENSE \
+              manage-join-token \
+              debian \
+              systemd 
             ls -lah dist/*
           )
         shell: bash
