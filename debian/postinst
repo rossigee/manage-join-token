@@ -1,9 +1,0 @@
-#!/bin/sh
-set -e
-
-case "$1" in
-    configure)
-        adduser --system --no-create-home --group manage-join-token
-        ;;
-esac
-exit 0

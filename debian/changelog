@@ -1,3 +1,9 @@
+manage-join-token (1.0.1-1) unstable; urgency=medium
+
+  * Needs to be run as root.
+
+ -- Ross Golder <ross@golder.org>  Thu, 1 Feb 2025 18:23:30 +0700
+
 manage-join-token (1.0.0-1) unstable; urgency=medium
 
   * Initial release.

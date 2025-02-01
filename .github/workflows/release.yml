@@ -8,7 +8,7 @@ on:
 
 env:
   APP_NAME: 'manage-join-token'
-  APP_VERSION: '1.0.0'
+  APP_VERSION: '1.0.1'
   MAINTAINER: 'rossigee'
   DESC: 'manage-join-token maintains a current cluster join token as a Vault secret.'
 

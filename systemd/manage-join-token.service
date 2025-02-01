@@ -4,7 +4,6 @@ After=network.target
 
 [Service]
 Type=simple
-User=manage-join-token
 WorkingDirectory=/tmp
 ExecStart=/usr/bin/manage-join-token
 
